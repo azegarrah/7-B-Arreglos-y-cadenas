@@ -10,7 +10,7 @@ int main(){
         cin >> A;
     }
         int n = strlen(A);
-   
+        bool palindromo = true;
 
 
 
