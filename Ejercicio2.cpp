@@ -12,6 +12,11 @@ int main(){
         int n = strlen(A);
         bool palindromo = true;
 
+        for(int i = 0; i < n / 2; i++){
+            if(A[i] != A[n - 1 - i]){
+                palindromo = false;
+                break;
+            }
 
 
     return 0;
