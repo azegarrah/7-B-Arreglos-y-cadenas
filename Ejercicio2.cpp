@@ -4,9 +4,11 @@ using namespace std;
 int main(){
     int N;
     char A[20];
+    cout << "Ingrese la cantidad de palabras: ";
     cin >> N;
 
     for(int k = 0; k < N; k++){
+        cout << "Ingrese la palabra: ";
         cin >> A;
     
         int n = strlen(A);
@@ -17,9 +19,9 @@ int main(){
             }
         }
         if(palindromo == true)
-            cout << "P" << '\n';
+            cout << "Si es palindromo: " << "P" << '\n';
         else
-            cout << "NP" << '\n';
+            cout << "No es palindromo: " << "NP" << '\n';
     }
     return 0;
 }
