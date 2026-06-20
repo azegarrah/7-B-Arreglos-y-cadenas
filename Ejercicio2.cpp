@@ -9,6 +9,8 @@ int main(){
     for(int k = 0; k < N; k++){
         cin >> A;
     }
+        int n = strlen(A);
+   
 
 
 
