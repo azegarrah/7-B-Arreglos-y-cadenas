@@ -12,7 +12,9 @@ int main(){
         cin >> x;
         vasos[x]++;
     }
-
+    for(int i = 1; i <= N; i++){
+        cout << vasos[i] << '\n';
+    }
 
     return 0;
 }
