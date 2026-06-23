@@ -6,9 +6,8 @@ int B[1000][1000];
 
 int main(){
 
-
-
-
+    int n;
+    cin >> n;
 
 
 
