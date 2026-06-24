@@ -6,10 +6,13 @@ int main(){
 
     char texto[101];
     char letras[101];
+
+    cin.getline(texto, 101);
+    
     int n = strlen(texto);
     int k = 0;
 
-    cin.getline(texto, 101);
+   
 
     for(int i = 0; i < n; i++){
         if (texto[i] >= 'a' && texto[i] <= 'z'){
@@ -36,7 +39,5 @@ int main(){
             cout << texto[i];
         }
     }
-
-
     return 0;
 }
