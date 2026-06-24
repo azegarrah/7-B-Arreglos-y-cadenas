@@ -26,6 +26,17 @@ int main(){
             }
         }
     }
-    
+    int p = 0;
+    for(int i = 0; i < n; i++){
+        if(texto[i] >= 'a' && texto[i] <= 'z'){
+            cout << letras[p];
+            p++;
+        }
+        else{
+            cout << texto[i];
+        }
+    }
+
+
     return 0;
 }
